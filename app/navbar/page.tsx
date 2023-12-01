@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className="
         flex 
         justify-between
-        items-center px-10 border-b
-        py-2 
+        items-center px-20 border-b
+        py-2 h-24
         ">
         <Logo/>
         <NavigationBar/>
