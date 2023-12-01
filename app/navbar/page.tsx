@@ -1,7 +1,6 @@
 import ActionButton from "./action-button";
 import Logo from "./logo";
 import NavigationBar from "./navigation-bar";
-import { ModeToggle } from './toggle';
 
 
 const Navbar = () => {

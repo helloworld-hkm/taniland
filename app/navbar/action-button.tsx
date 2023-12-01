@@ -22,10 +22,10 @@ const ActionButton = () => {
             <SheetContent>
                 <SheetDescription>
                     <div className="flex flex-col space-y-4 items-start w-full text-lg  mt-10">
-                        <Link href=""> About</Link>
-                        <Link href=""> Features</Link>
+                        <Link href="/about"> About</Link>
+                        <Link href="#product"> Product</Link>
                         <Link href=""> Contact us</Link>
-                        <Link href=""> Pricing</Link>
+                        <Button asChild><Link href="/download">Download App</Link></Button>
                         <ModeToggle/>
                     </div>
                 </SheetDescription>
@@ -34,7 +34,7 @@ const ActionButton = () => {
     </div> 
 
         <div className="hidden md:flex md:space-x-4">
-        <Button>Download App</Button>
+        <Button asChild><Link href="/download">Download App</Link></Button>
         <ModeToggle/>
         </div>
 

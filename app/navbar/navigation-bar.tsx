@@ -21,15 +21,15 @@ const NavigationBar = () => {
   <NavigationMenuList>
   <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="font-medium">
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="#product" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Features
+              Product
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -40,13 +40,7 @@ const NavigationBar = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-  <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-             Pricing
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+  
   </NavigationMenuList>
 </NavigationMenu>
     </div> );
