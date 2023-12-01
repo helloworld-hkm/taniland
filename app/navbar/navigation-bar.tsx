@@ -29,7 +29,7 @@ const NavigationBar = () => {
   <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Download
+              Features
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
