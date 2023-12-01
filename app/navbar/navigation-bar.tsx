@@ -21,7 +21,7 @@ const NavigationBar = () => {
   <NavigationMenuList>
   <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className="font-medium">
               About
             </NavigationMenuLink>
           </Link>
