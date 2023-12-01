@@ -71,7 +71,7 @@ const ProfileSection = () => {
         </div>
       </div>
       <div className="flex-col items-center justify-center">
-        <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-black to-green-500 text-transparent">
+        <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
           Kenapa harus TaniLand?
         </div>
         <div className="grid grid-cols-1 p-4 md:grid md:grid-cols-2 gap-4 md:px-40">

@@ -4,7 +4,7 @@ const AppSection = () => {
     <div className="items-center flex justify-center md:py-10 container pt-10" id="product">
         <div className="text-center md:text-5xl text-4xl 
         bg-gradient-to-r
-        from-black to-green-500
+        from-blue-500 to-green-500
         bg-clip-text
         text-transparent
         pb-5

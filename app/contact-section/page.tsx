@@ -3,7 +3,7 @@ const ContactSection = () => {
          <div className="pb-10 container">
              <div className="text-center md:text-5xl text-4xl 
         bg-gradient-to-r
-        from-black to-green-500
+        from-blue-500 to-green-500
         bg-clip-text
         text-transparent
         pb-5

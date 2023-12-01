@@ -6,7 +6,7 @@ const FiturSection = () => {
     return (
         <div className="container mx-auto">
             <div className="flex-col items-center justify-center">
-          <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-black to-green-500 text-transparent">
+          <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
             Fitur -Fitur Aplikasi
           </div>
          
