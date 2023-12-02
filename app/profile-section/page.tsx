@@ -16,14 +16,14 @@ const alasan =[
         alt:"pertnian"
     },
     {
-        name:"Solusi Terpadu untuk Pertanian",
+        name:"Jejaring Komunitas yang Kuat",
         deskripsi:"Dengan fitur seperti forum diskusi dan berbagi informasi, TaniLand memfasilitasi kolaborasi antarpetani dan memungkinkan pertukaran pengetahuan. ",
         image:"/content/icon-signal.png",
         alt:"forum"
     },
     {
         name:"Harga terjangkau dengan kemudahan akses dan penggunaan",
-        deskripsi:"Dirancang dengan antarmuka pengguna yang ramah pengguna, memastikan bahwa petani dari berbagai latar belakang dapat dengan mudah mengakses dan menggunakan aplikasi ini. ",
+        deskripsi:"Dirancang dengan antarmuka yang ramah pengguna, memastikan bahwa petani dari berbagai latar belakang dapat dengan mudah mengakses dan menggunakan aplikasi ini. ",
         image:"/content/icon-dollar.png",
         alt:"forum"
     }

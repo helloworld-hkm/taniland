@@ -10,7 +10,7 @@ const ContactSection = () => {
         font-bold
         
         ">
-            Perangkap Hama Dan Monitoring Berbasis Internet of Thinks
+            Perangkap Hama Dan Monitoring Berbasis Internet of Things
         </div>
             <div className="border-[1px] mx-auto p-10 rounded-xl">
                 <div className="text-4xl font-bold mb-5">
