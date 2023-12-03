@@ -22,7 +22,7 @@ const DownloadSection = ()=>{
     
     const checkCode = () => {
       setErrorMessage('');
-      if (code === 'taniland_tester') {
+      if (code === '123456') {
         
         // router.push('/download');
         window.location.href = ' https://drive.google.com/file/d/1EFnSPoBOoCsMFyXlTdBsHl3cgnf6nCNx/view?usp=sharing ';
@@ -41,36 +41,16 @@ const DownloadSection = ()=>{
             </div>
             <p className="text-lg md:text-xl md-10  bg-gradient-to-r from-black to-green-500 bg-clip-text text-transparent dark:text-white font-bold">Unduh aplikasi TaniLand untuk pengalaman terbaik dalam pertanian.</p>
             <div className=" flex gap-4 justify-center pt-10 ">
-            {/* <AlertDialog>
-      <AlertDialogTrigger asChild>
-      <Link href="/download" className="bg-primary text-white  px-10 py-4 rounded-md text-lg font-bold">Unduh Sekarang</Link>
-      </AlertDialogTrigger>
-      <AlertDialogContent>
-        <AlertDialogHeader>
-          <AlertDialogTitle>Terima kasih atas minat Anda untuk mendownload aplikasi kami</AlertDialogTitle>
-          <AlertDialogDescription className="text-lg">
-          Aplikasi kami saat ini sedang dalam tahap closed testing (alpha).
-      <Input  onChange={(e) => setCode(e.target.value)} className="py-2" placeholder="Masukkan kode"  value={code} />
-      {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-          </AlertDialogDescription>
-        </AlertDialogHeader>
-        <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
-          <AlertDialogAction>  <button onClick={checkCode}>Verifikasi</button></AlertDialogAction>
-          <AlertDialogAction><Link href="mailto:tanilandsuperapps@gmail.com">Kirimkan Email</Link></AlertDialogAction>
-          <AlertDialogAction><Link href="mailto:tanilandsuperapps@gmail.com">Download APp</Link></AlertDialogAction>
-        </AlertDialogFooter>
-      </AlertDialogContent>
-    </AlertDialog> */}
      <Dialog>
       <DialogTrigger asChild>
       <Link href="/download" className="bg-primary text-white  px-10 py-4 rounded-md text-lg font-bold">Unduh Sekarang</Link>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>Masukkan Kode Akses</DialogTitle>
+          <DialogTitle>Masukkan Kode Akses:</DialogTitle>
           <DialogDescription>
-          Aplikasi kami saat ini sedang dalam tahap closed testing (alpha).Masukkan kode untuk Download Aplikasi
+          Aplikasi kami saat ini sedang dalam tahap closed testing (alpha).
+          <div>Masukkan Kode untuk Download Aplikasi</div>
           </DialogDescription>
         </DialogHeader>
         <div className="flex items-start space-x-2">
@@ -85,6 +65,9 @@ const DownloadSection = ()=>{
             <span className="">Verifikasi</span>
            
           </Button>
+        </div>
+        <div>
+        Coba Pengalaman UI kami <Link href ="https://www.figma.com/proto/9x5kyTtfBZ2iltuHcHg0rh/update-Prototype?type=design&node-id=1901-7231&t=seTq11UxfXER2HMy-1&scaling=scale-down&page-id=421%3A4402&starting-point-node-id=1901%3A7213&show-proto-sidebar=1&mode=design"className="text-primary ">disini</Link> 
         </div>
         <DialogFooter className="sm:justify-start">
           <DialogClose asChild>
