@@ -25,7 +25,7 @@ const DownloadSection = ()=>{
       if (code === '123456') {
         
         // router.push('/download');
-        window.location.href = ' https://drive.google.com/file/d/1EFnSPoBOoCsMFyXlTdBsHl3cgnf6nCNx/view?usp=sharing ';
+        window.location.href = ' https://drive.google.com/drive/folders/1WwKAIxTexDBc7fazmjYvktDTxtUNisn8?usp=sharing  ';
       } else {
 
         setErrorMessage('Kode yang dimasukkan salah. Silakan coba lagi.');
