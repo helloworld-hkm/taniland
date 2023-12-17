@@ -1,7 +1,8 @@
 'use client'
 import React from "react";
 import Image from "next/image";
-
+import { motion } from 'framer-motion';
+import { fadeIn } from "../variant";
 const alasan =[
     {
         name:"Teknologi IoT yang canggih",
@@ -28,9 +29,9 @@ const alasan =[
         alt:"forum"
     }
 ]
-const ProfileSection = () => {
+const ProfileSection = ({control}) => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto " >
       <div
         className="
         lg:flex-row
@@ -39,22 +40,44 @@ const ProfileSection = () => {
        items-center
         justify-center
         pb-10
+        md:h-screen
         "
       >
-        <div className="p-5 justify-center  items-center ">
-          <div className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-6xl font-bold ">
-            Agritech Yang Lahir Dari Program Bangkit 2023 Batch 1
-          </div>
-          <div className=" text-2xl pb-10 font-bold">
-            Top-20 capstone project yang mendaptakan pendanaan 140 Juta{" "}
-          </div>
-          <div className="text-2xl ">
+        <div className="p-5 justify-center  items-center  " id="about">
+          <motion.div
+          variants={fadeIn('down', 0.4)}
+          initial="hidden"
+          animate={{ control }}
+          //   transition={{ duration: 1 }}
+          whileInView={"visible"}
+           className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-6xl font-bold ">
+          Agritectech Pilihan untuk Solusi Pengendalian Hama
+          </motion.div>
+          <motion.div
+          variants={fadeIn('down', 0.6)}
+          initial="hidden"
+          animate={{ control }}
+          //   transition={{ duration: 1 }}
+          whileInView={"visible"} className=" text-2xl pb-10 font-bold">
+          Menghadirkan Solusi Holistik yang Menggabungkan Kepakaran Pertanian dan Keunggulan Teknologi IoT
+          </motion.div>
+          <motion.div 
+          variants={fadeIn('up', 0.4)}
+          initial="hidden"
+          animate={{ control }}
+          //   transition={{ duration: 1 }}
+          whileInView={"visible"} className="text-2xl ">
             Dengan latar belakang yang berbeda-beda tidak menjadi sebuah
             hambatan bagi tim untuk membangun sebuah perusahaan bernama{" "}
             <span className="text-green-600 font-bold">TaniLand</span>
-          </div>
+          </motion.div>
         </div>
         <div>
+          <motion.div  variants={fadeIn('up', 0.4)}
+          initial="hidden"
+          animate={{ control }}
+          //   transition={{ duration: 1 }}
+          whileInView={"visible"}>
           <Image
             className="rounded-xl w-fill  "
             src="/content/img1.jpg"
@@ -68,19 +91,32 @@ const ProfileSection = () => {
            
             alt="logo"
           />
+             </motion.div>
         </div>
       </div>
       <div className="flex-col items-center justify-center">
-        <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
+        <motion.div
+         variants={fadeIn('up', 0.2)}
+         initial="hidden"
+          animate={{ control }}
+//   transition={{ duration: 1 }}
+ whileInView={"visible"}
+         className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
           Kenapa harus TaniLand?
-        </div>
+        </motion.div>
         <div className="grid grid-cols-1 p-4 md:grid md:grid-cols-2 gap-4 md:px-40">
                     {alasan.map((item, index) => (
-                        <div
+                        <motion.div
+                        variants={fadeIn('up', 0.4)}
+                        initial="hidden"
+                        whileHover={{ scale: 1.02 }}
+                         animate={{ control }}
+          //   transition={{ duration: 1 }}
+                whileInView={"visible"}
                         key={index}
                         className="flex-col space-y-6 pb-10 border
                         
-                        p-8 rounded-xl items-center justify-center w-full hover:scale-105 transform transition-all duration-500 ease-in-out
+                        p-8 rounded-xl items-center justify-center w-full 
                         "
                         >
                             <div className="
@@ -113,7 +149,7 @@ const ProfileSection = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </motion.div>
                         ))}
                 </div>
       </div>

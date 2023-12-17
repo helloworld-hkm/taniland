@@ -20,21 +20,21 @@ const NavigationBar = () => {
     <NavigationMenu className="hidden md:flex md:space-x-4">
   <NavigationMenuList>
   <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="#about" legacyBehavior passHref >
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="#product" legacyBehavior passHref>
+          <Link href="#product" legacyBehavior passHref   >
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Product
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref scroll={false}>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact us
             </NavigationMenuLink>
