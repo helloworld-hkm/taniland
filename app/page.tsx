@@ -17,17 +17,18 @@ export default function Home() {
     useEffect(() => {
       if (inView) {
         control.start("visible");
-      } else {
-        control.start("hidden");
-      }
+      } 
+      // else {
+      //   control.start("hidden");
+      // }
     }, [control, inView]);
   return (
   <>
   <Navbar/>
-  <HeroSection control={{control}}/>
-  <ProfileSection control={{control}}/>
-  <AppSection control={{control}}/>
-  <ContactSection control={{control}}/>
+  <HeroSection control={control} ref={ref}/>
+  <ProfileSection control={control}/>
+  <AppSection control={control}/>
+  <ContactSection control={control}/>
   <Footer/>
   </>
   )

@@ -34,7 +34,7 @@ const NavigationBar = () => {
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref scroll={false}>
+          <Link href="/" legacyBehavior passHref scroll={false}> 
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact us
             </NavigationMenuLink>
