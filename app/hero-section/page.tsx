@@ -5,7 +5,7 @@ import Link from "next/link";
 import { fadeIn } from "../variant";
 import { motion } from "framer-motion";
 import { Motion } from "@/components/Motion";
-const HeroSection = ({ control }) => {
+const HeroSection = () => {
   return (
     <section className="md:py-12  py-10 md:px-24 px-5 ">
       <div className=" text-center">

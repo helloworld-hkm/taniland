@@ -30,7 +30,7 @@ const alasan =[
         alt:"forum"
     }
 ]
-const ProfileSection = ({control}) => {
+const ProfileSection = () => {
   return (
     <div className="container mx-auto " id="about" >
       <div

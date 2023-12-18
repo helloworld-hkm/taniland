@@ -27,10 +27,10 @@ export default function Home() {
   return (
   <>
   <Navbar/>
-  <HeroSection control={control} ref={ref}/>
-  <ProfileSection control={control}/>
-  <AppSection control={control}/>
-  <ContactSection control={control}/>
+  <HeroSection />
+  <ProfileSection />
+  <AppSection />
+  <ContactSection/>
   <ActivitySection/>
   <TestimonialSection/>
   <FaqSection/>
