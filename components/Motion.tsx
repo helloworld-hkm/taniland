@@ -1,6 +1,6 @@
 import { useRef, ReactNode } from "react";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { IntersectionOptions, useInView } from "react-intersection-observer";
 
 interface MotionProps {
   children: ReactNode;
