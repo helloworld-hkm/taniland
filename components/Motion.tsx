@@ -1,6 +1,6 @@
+/* eslint-disable */
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
 export const Motion = ({ children,direction, transition }) => {
     // Motion Bottom to Top
     const ref = useRef(null);
