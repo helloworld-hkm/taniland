@@ -54,6 +54,7 @@ const ActivitySection = () => {
         <Swiper
         effect={'cards'}
         grabCursor={true}
+        loop={true}
         modules={[EffectCards]}
         className="mySwiper swiper-activity lg:w-fill w-full "
       >

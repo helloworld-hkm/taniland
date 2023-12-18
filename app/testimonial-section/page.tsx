@@ -78,6 +78,7 @@ const TestimonialSection = () => {
         </div> */}
         <Swiper
         grabCursor={true}
+        loop={true}
         effect={'creative'}
         creativeEffect={{
           prev: {
