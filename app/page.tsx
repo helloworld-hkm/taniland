@@ -9,8 +9,10 @@ import ContactSection from './contact-section/page';
 import { motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
-
+import FaqSection from './faq-section/page';
+import ActivitySection from './activity-section/page';
 import { useEffect } from "react";
+import TestimonialSection from './testimonial-section/page';
 export default function Home() {
   const control = useAnimation()
   const [ref, inView] = useInView()
@@ -29,6 +31,9 @@ export default function Home() {
   <ProfileSection control={control}/>
   <AppSection control={control}/>
   <ContactSection control={control}/>
+  <ActivitySection/>
+  <TestimonialSection/>
+  <FaqSection/>
   <Footer/>
   </>
   )

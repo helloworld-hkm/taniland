@@ -95,7 +95,7 @@ const ProfileSection = ({control}) => {
         </div>
         </Motion>
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
-        <div className="grid grid-cols-1 p-4 md:grid md:grid-cols-2 gap-4 md:px-40">
+        <div className="grid grid-cols-1 p-4 lg:grid lg:grid-cols-2 gap-4 lg:px-40">
                     {alasan.map((item, index) => (
                         
                           <div

@@ -49,7 +49,8 @@ const HeroSection = ({ control }) => {
         </Motion>
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
         <div className="pt-10 flex justify-center ">
-            <Image className="rounded-xl  " src="/images/hero.png"   width={800} height={800}    alt="logo" />
+            <Image className="rounded-xl dark:grayscale dark:invert  " src="/images/hero.png"   width={800} height={800}    alt="logo" />
+            {/* <Image className="rounded-xl dark:block hidden invert " src="/images/hero.jpg"   width={800} height={800}    alt="logo" /> */}
             </div>
             <div className="text-3xl bg-gradient-to-r from-blue-500 to-green-300 bg-clip-text text-transparent font-bold pt-5">
             #Growing Together, greening the future

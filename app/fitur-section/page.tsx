@@ -6,14 +6,14 @@ const FiturSection = () => {
     return (
         <div className="container mx-auto">
             <div className="flex-col items-center justify-center">
-          <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
+          {/* <div className="text-center text-3xl md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-transparent">
             Fitur -Fitur Aplikasi
-          </div>
+          </div> */}
          
         </div>
         <div
           className="
-          lg:flex-row
+          lg:flex-row-reverse
           flex
           flex-col
          items-center
@@ -21,16 +21,7 @@ const FiturSection = () => {
           pb-10
           "
         >
-          <div className="p-5 justify-center  items-center text-right">
-            <div className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-5xl font-bold ">
-              Manajemen Lahan
-            </div>
-         
-            <div className="text-2xl ">
-              Pengguna dapat dengan mudah mengelola lahan, mencatat kegiatan,dan memenuhi kebutuhan dengan fitur manajemen lahan yang intuitif dan informatif
-            
-            </div>
-          </div>
+        
           <div>
             <Image
               className="rounded-xl w-fill  "
@@ -45,6 +36,16 @@ const FiturSection = () => {
              
               alt="logo"
             />
+          </div>
+          <div className="p-5 justify-center  items-center text-right">
+            <div className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-5xl font-bold ">
+              Manajemen Lahan
+            </div>
+         
+            <div className="text-2xl ">
+              Pengguna dapat dengan mudah mengelola lahan, mencatat kegiatan,dan memenuhi kebutuhan dengan fitur manajemen lahan yang intuitif dan informatif
+            
+            </div>
           </div>
         </div>
         
@@ -88,7 +89,7 @@ const FiturSection = () => {
 
         <div
           className="
-          lg:flex-row
+          lg:flex-row-reverse
           flex
           flex-col
          items-center
@@ -96,16 +97,7 @@ const FiturSection = () => {
           pb-10
           "
         >
-          <div className="p-5 justify-center  items-center text-right">
-            <div className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-5xl font-bold ">
-              Forum Diskusi Petani
-            </div>
-         
-            <div className="text-2xl ">
-              Platform interaktif dimana petani dapat berbagi pengalaman, bertukar informasi terkini, dan mendiskusikan tantangan serta solusi dalam pertanian
-            
-            </div>
-          </div>
+          
           <div>
             <Image
               className="rounded-xl w-fill  "
@@ -120,6 +112,16 @@ const FiturSection = () => {
              
               alt="logo"
             />
+          </div>
+          <div className="p-5 justify-center  items-center text-right">
+            <div className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-5xl font-bold ">
+              Forum Diskusi Petani
+            </div>
+         
+            <div className="text-2xl ">
+              Platform interaktif dimana petani dapat berbagi pengalaman, bertukar informasi terkini, dan mendiskusikan tantangan serta solusi dalam pertanian
+            
+            </div>
           </div>
         </div>
         
