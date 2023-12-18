@@ -11,7 +11,7 @@ interface MotionProps {
 export const Motion: React.FC<MotionProps> = ({ children, direction, transition }) => {
   // Motion Bottom to Top
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref);
 
   const elementVariants = {
     hidden: {
