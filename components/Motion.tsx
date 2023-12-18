@@ -7,11 +7,15 @@ interface MotionProps {
   direction: any; // Update with your actual type
   transition: any; // Update with your actual type
 }
-
+interface CustomIntersectionOptions extends IntersectionOptions {
+    once?: boolean;
+  }
 export const Motion: React.FC<MotionProps> = ({ children, direction, transition }) => {
   // Motion Bottom to Top
   const ref = useRef(null);
-  const isInView = useInView(ref);
+
+  
+  const isInView = useInView({ once: true } as CustomIntersectionOptions);;
 
   const elementVariants = {
     hidden: {
