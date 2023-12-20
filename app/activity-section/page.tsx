@@ -39,14 +39,14 @@ const ActivitySection = () => {
 
 
                 </div>
-                <div>
+                <div className="text-xl">
                 TaniLand menyusun cerita sukses dengan mencampurkan kecerdasan buatan, sensor pintar, dan teknologi terkini, menciptakan pertanian yang pintar dan efisien.
                 </div>
             
-                <button className="bg-primary text-white px-6 py-3 lg:w-full w-1/4 mt-5 rounded-lg">
+                {/* <button className="bg-primary text-white px-6 py-3 lg:w-full w-1/4 mt-5 rounded-lg">
                     Tentang Kami
 
-                </button>
+                </button> */}
            
              
         </div>
@@ -56,7 +56,7 @@ const ActivitySection = () => {
         grabCursor={true}
         loop={true}
         modules={[EffectCards]}
-        className="mySwiper swiper-activity lg:w-fill w-full "
+        className="mySwiper swiper-activity max-w-full max-h-auto "
       >
         <SwiperSlide> 
           <Image
@@ -75,7 +75,21 @@ const ActivitySection = () => {
         <SwiperSlide> 
           <Image
             className="w-full"
-            src="/images/perangkap.jpg"
+            src="/content/img5.jpg"
+            fill={true}
+            alt="logo"
+          /></SwiperSlide>
+        <SwiperSlide> 
+          <Image
+            className="w-full"
+            src="/content/img-lg2.jpg"
+            fill={true}
+            alt="logo"
+          /></SwiperSlide>
+        <SwiperSlide> 
+          <Image
+            className="w-full"
+            src="/content/img6.jpg"
             fill={true}
             alt="logo"
           /></SwiperSlide>

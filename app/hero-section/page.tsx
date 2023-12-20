@@ -46,7 +46,7 @@ const HeroSection = () => {
           </button>
           </motion.div>
         </div>
-        </Motion>
+        </Motion> 
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
         <div className="pt-10 flex justify-center ">
             <Image className="rounded-xl dark:grayscale dark:invert  " src="/images/hero.png"   width={800} height={800}    alt="logo" />

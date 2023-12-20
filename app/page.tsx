@@ -13,6 +13,8 @@ import FaqSection from './faq-section/page';
 import ActivitySection from './activity-section/page';
 import { useEffect } from "react";
 import TestimonialSection from './testimonial-section/page';
+import TeamContent from './../components/team';
+import EmailSection from './../components/Mail';
 export default function Home() {
   const control = useAnimation()
   const [ref, inView] = useInView()
@@ -33,7 +35,9 @@ export default function Home() {
   <ContactSection/>
   <ActivitySection/>
   <TestimonialSection/>
+  <TeamContent/>
   <FaqSection/>
+  <EmailSection/>
   <Footer/>
   </>
   )

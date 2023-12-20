@@ -1,11 +1,12 @@
 const Footer = () => {
     return ( 
     <div className="
+    mt-0
     border-t-[1px]
     
     
     ">
-       <div className="flex justify-evenly gap-4 p-4">
+       <div className="flex justify-evenly mt-5 ">
         <div>
             <div className="flex flex-col p-4 cursor-pointer text-xl">
               

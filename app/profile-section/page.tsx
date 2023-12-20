@@ -41,25 +41,25 @@ const ProfileSection = () => {
        items-center
         justify-center
         pb-10
-        md:h-screen
+        md:h-screen h-full
         "
       >
         <div className="p-5 justify-center  items-center  " id="about">
         <Motion direction={'down'}  transition={{ delay: 0.2, duration: 0.5 }}>
           <div
-           className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent pb-5 text-4xl md:text-6xl font-bold ">
+           className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent  md:pb-5 pb-2 text-4xl md:text-6xl font-bold ">
           Agritectech Pilihan untuk Solusi Pengendalian Hama
           </div>
           </Motion>
           <Motion direction={'down'}  transition={{ delay: 0.2, duration: 0.5 }}>
           <div
-          className=" text-2xl pb-10 font-bold">
+          className=" text-xl md:text-2xl md:pb-10 pb-5 font-bold">
           Menghadirkan Solusi Holistik yang Menggabungkan Kepakaran Pertanian dan Keunggulan Teknologi IoT
           </div>
           </Motion>
            <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
           <div 
-          className="text-2xl ">
+          className="text-lg md:text-2xl ">
             Dengan latar belakang yang berbeda-beda tidak menjadi sebuah
             hambatan bagi tim untuk membangun sebuah perusahaan bernama{" "}
             <span className="text-green-600 font-bold">TaniLand</span>
@@ -70,8 +70,8 @@ const ProfileSection = () => {
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
           
           <Image
-            className="rounded-xl w-fill  "
-            src="/content/img1.jpg"
+            className="rounded-xl w-fill hover:rotate-1 translation duration-200 "
+            src="/content/img6.jpg"
             sizes="100vw"
       style={{
         height: '100%',
