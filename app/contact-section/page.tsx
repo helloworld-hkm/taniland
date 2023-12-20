@@ -77,7 +77,7 @@ const ContactSection = () => {
              <div className="lg:w1/2">         
           <Image
             className="rounded-xl lg:w-fill w-full shadow-lg  "
-            src="/content/img7.jpg"
+            src="/content/img7.JPG"
             sizes="100vw"
       style={{
         height: '100%',
