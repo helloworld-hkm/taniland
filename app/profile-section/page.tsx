@@ -71,7 +71,7 @@ const ProfileSection = () => {
           
           <Image
             className="rounded-xl w-fill hover:rotate-1 translation duration-200 "
-            src="/content/img6.jpg"
+            src="/content/img6.JPG"
             sizes="100vw"
       style={{
         height: '100%',
