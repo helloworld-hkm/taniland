@@ -75,7 +75,7 @@ const ActivitySection = () => {
         <SwiperSlide> 
           <Image
             className="w-full"
-            src="/content/img5.jpg"
+            src="/content/img5.JPG"
             fill={true}
             alt="logo"
           /></SwiperSlide>
@@ -89,7 +89,7 @@ const ActivitySection = () => {
         <SwiperSlide> 
           <Image
             className="w-full"
-            src="/content/img6.jpg"
+            src="/content/img6.JPG"
             fill={true}
             alt="logo"
           /></SwiperSlide>

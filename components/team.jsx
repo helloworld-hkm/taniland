@@ -81,7 +81,7 @@ const TeamContent = () => {
           
           <Image
             className="rounded-xl lg:w-fill w-full shadow-lg  "
-            src="/content/img3.jpg"
+            src="/content/img3.JPG"
             sizes="100vw"
       style={{
         height: '100%',
