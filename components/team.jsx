@@ -47,7 +47,6 @@ const TeamContent = () => {
       >
         Memimpin Revolusi Pertanian Menuju Keberlanjutan
       </div>
-     
       <div
         className="
         lg:flex-row
@@ -86,18 +85,12 @@ const TeamContent = () => {
       style={{
         height: '100%',
         width: 'auto',
-      }}
-      width={500}
-      height={300}
-           
-            alt="logo"
-          />
-          
+      }} width={500} height={300} alt="logo"/>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid md:grid-cols-3 p-5 gap-5 ">
-
+      <div className="grid md:grid-cols-3 p-5 gap-5 ">
+      {/* <div className="grid grid-cols-3 gap-4"> */}
         {team.map((i, index) => (
           <div key={index}>
             <figure className=" border-[1px] rounded-xl h-full flex flex-col justify-between dark:bg-black bg-white shadow-xl overflow-hidden rotate-0 hover:scale-105 transform transition-all duration-500 ease-in-out">
@@ -123,9 +116,11 @@ const TeamContent = () => {
                 </figcaption> */}
               </div>
             </figure>
-          </div>
+          </div>  
         ))}
       </div>
+
+
       
     </div>
   );

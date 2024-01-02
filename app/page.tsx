@@ -14,7 +14,8 @@ import ActivitySection from './activity-section/page';
 import { useEffect } from "react";
 import TestimonialSection from './testimonial-section/page';
 import TeamContent from './../components/team';
-import EmailSection from './../components/Mail';
+import EmailForm from './../components/Mail';
+import BenefitContent from './../components/benefit';
 export default function Home() {
   const control = useAnimation()
   const [ref, inView] = useInView()
@@ -31,13 +32,13 @@ export default function Home() {
   <Navbar/>
   <HeroSection />
   <ProfileSection />
-  <AppSection />
+  {/* <AppSection />
   <ContactSection/>
   <ActivitySection/>
   <TestimonialSection/>
   <TeamContent/>
-  <FaqSection/>
-  <EmailSection/>
+  <FaqSection/> */}
+  <EmailForm to="tanilandsuperapps@gmail.com"/>
   <Footer/>
   </>
   )

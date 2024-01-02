@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-
+import YouTube from 'react-youtube';
 const ContactSection = () => {
 
   return (
@@ -35,6 +35,8 @@ const ContactSection = () => {
             </button>
            
           </div>
+       
+   
         </div>
         <div className="flex-none">
           <Image
@@ -60,8 +62,16 @@ const ContactSection = () => {
        
       </div>
       {/* <video className="rounded-xl mx-auto" controls poster="/content/img8.jpg">
-                <source src="/content/video.mp4" type="video/mp4" />
+                <source src="https://youtu.be/mKSPmJtfKJw" type="video/mp4" />
       </video> */}
+         <div className="container relative w-full overflow-hidden pt-[56.25%] ">
+          <iframe
+        src="https://www.youtube.com/embed/TkTMEpLd27I?si=mWtsSXRWMM7TTeXU"
+        title="YouTube video player"
+        className=" inset-0 rounded-xl responsive-iframe absolute  border-none w-full h-full   "
+        
+      ></iframe>
+          </div>
 
       <div
         className="
