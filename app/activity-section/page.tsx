@@ -32,7 +32,7 @@ const ActivitySection = () => {
         </div>
            
 
-            <div className="mx-auto  rounded-xl flex lg:flex-row flex-col-reverse gap-8 justify-between items-center overflow-hidden md:overflow-visible">
+            <div className="mx-auto  rounded-xl flex lg:flex-row flex-col-reverse gap-8 justify-between items-center overflow-hidden 2xl:overflow-visible">
         <div className="mx-5">
         <div className="text-4xl font-bold mb-5">
         Melangkah maju dalam pertanian modern
