@@ -32,12 +32,12 @@ export default function Home() {
   <Navbar/>
   <HeroSection />
   <ProfileSection />
-  {/* <AppSection />
+  <AppSection />
   <ContactSection/>
   <ActivitySection/>
   <TestimonialSection/>
   <TeamContent/>
-  <FaqSection/> */}
+  <FaqSection/>
   <EmailForm to="tanilandsuperapps@gmail.com"/>
   <Footer/>
   </>

@@ -59,7 +59,7 @@ const EmailForm: React.FC<EmailFormProps> = ({ to }) => {
                 id="email"
                 required
                 className="bg-white border border-black placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="Masukkan alamat email Anda"
               />
             </div>
             <div className="mb-6">
@@ -73,7 +73,7 @@ const EmailForm: React.FC<EmailFormProps> = ({ to }) => {
                 id="subject"
                 required
                 className="bg-white border border-black placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Tuliskan subjek pesan Anda"
               />
             </div>
             <div className="mb-6">
@@ -85,7 +85,7 @@ const EmailForm: React.FC<EmailFormProps> = ({ to }) => {
                 id="message"
                 name="message"
                 className="bg-white border border-black placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Tuliskan pesan Anda"
               />
             </div>
             <button
