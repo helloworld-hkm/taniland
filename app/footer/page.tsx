@@ -1,5 +1,5 @@
+"use client"
 import { useState, useEffect } from 'react';
-
 const Footer = () => {
   const [accessCount, setAccessCount] = useState(0);
 
