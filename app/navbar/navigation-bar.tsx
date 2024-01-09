@@ -1,7 +1,8 @@
 
 'use client'
 import * as react from 'react'
-import Link from "next/link"
+import React from 'react';
+import { Link, Element } from 'react-scroll'
 import { cn } from '@/lib/utils'
 import {
     NavigationMenu,
@@ -20,24 +21,24 @@ const NavigationBar = () => {
     <NavigationMenu className="hidden md:flex md:space-x-4">
   <NavigationMenuList>
   <NavigationMenuItem>
-          <Link href="#about" legacyBehavior passHref >
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+  <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} className={navigationMenuTriggerStyle()}>  
+          
               About
-            </NavigationMenuLink>
+           
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="#product" legacyBehavior passHref   >
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+  <Link activeClass="active" to="iot" spy={true} smooth={true} offset={-100} duration={500} className={navigationMenuTriggerStyle()}>  
+           
               Product
-            </NavigationMenuLink>
+          
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-          <Link href="#contact" legacyBehavior passHref > 
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+  <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500} className={navigationMenuTriggerStyle()}>  
+           
               Contact us
-            </NavigationMenuLink>
+          
           </Link>
         </NavigationMenuItem>
   

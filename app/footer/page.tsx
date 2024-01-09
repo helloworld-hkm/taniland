@@ -49,7 +49,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mt-5 mx-4 ">
         <div>
           <div className="flex flex-col  cursor-pointer text-xl">
-            <div>All rights reserved. @2023 by <span className="text-green-500">TaniLand</span>.</div>
+            <div>All rights reserved. @2024 by <span className="text-green-500">TaniLand</span>.</div>
           </div>
         </div>
         {/* {accessCount.map((item) => (

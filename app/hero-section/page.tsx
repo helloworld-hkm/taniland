@@ -1,4 +1,4 @@
-"use client";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { Motion } from "@/components/Motion";
 const HeroSection = () => {
   return (
-    <section className="md:py-12  py-10 md:px-24 px-5 ">
+    <section className="pt-32  md:px-24  px-5 ">
       <div className=" text-center">
         <Motion direction={'down'}  transition={{ delay: 0.3, duration: 0.5 }}>
         <h1
@@ -33,7 +33,7 @@ const HeroSection = () => {
         whileHover={{ scale: 1.2 }}>
           <Link
           
-            href="/download"
+            href="#"
             className="bg-primary text-white  px-10 py-4 rounded-md md:text-lg text-sm font-bold"
           >
             Download App
@@ -41,9 +41,9 @@ const HeroSection = () => {
           </motion.div>
           <motion.div
         whileHover={{ scale: 1.2 }}>
-          <button className="bg-secondary px-10 py-4 rounded-md md:text-lg text-sm font-bold">
+          <Link href="#aplikasi" className="bg-secondary px-10 py-4 rounded-md md:text-lg text-sm font-bold">
             Learn More
-          </button>
+          </Link>
           </motion.div>
         </div>
         </Motion> 

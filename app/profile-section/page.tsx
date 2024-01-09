@@ -32,7 +32,7 @@ const alasan =[
 ]
 const ProfileSection = () => {
   return (
-    <div className="container mx-auto " id="about" >
+    <div className="container mx-auto "  >
       <div
         className="
         lg:flex-row
@@ -44,7 +44,7 @@ const ProfileSection = () => {
         md:h-screen h-full
         "
       >
-        <div className="p-5 justify-center  items-center  " id="about">
+        <div className="p-5 justify-center  items-center  " >
         <Motion direction={'down'}  transition={{ delay: 0.2, duration: 0.5 }}>
           <div
            className="text-gradient bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent  md:pb-5 pb-2 text-4xl md:text-6xl font-bold ">

@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 const ContactSection = () => {
 
   return (
-    <div className="pb-10 container">
+    <div className="pb-10 container"  id="iot">
       <div
         className="text-center md:text-5xl text-4xl 
         bg-gradient-to-r
@@ -100,7 +100,7 @@ const ContactSection = () => {
           />
           
         </div>
-        <div className=" flex flex-col  " id="about">
+        <div className=" flex flex-col  " >
           <div className=" text-xl md:text-2xl md:pb-10 pb-5 font-bold">
           Metode Terkini dalam Pengendalian Hama untuk Lingkungan yang Lebih Sehat dan Produktivitas yang Maksimal
           </div>
