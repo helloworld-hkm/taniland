@@ -35,7 +35,7 @@ const NavigationBar = () => {
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-  <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500} className={navigationMenuTriggerStyle()}>  
+  <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500} className={navigationMenuTriggerStyle()}>  
            
               Contact us
           
