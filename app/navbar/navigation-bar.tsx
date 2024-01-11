@@ -21,7 +21,7 @@ const NavigationBar = () => {
     <NavigationMenu className="hidden md:flex md:space-x-4">
   <NavigationMenuList>
   <NavigationMenuItem>
-  <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} className={navigationMenuTriggerStyle()}>  
+  <Link activeClass="active" legacyBehavior passHref to="about" spy={true} smooth={true} offset={-300} duration={500} className={navigationMenuTriggerStyle()}>  
           
               About
            
@@ -35,7 +35,7 @@ const NavigationBar = () => {
           </Link>
         </NavigationMenuItem>
   <NavigationMenuItem>
-  <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500} className={navigationMenuTriggerStyle()}>  
+  <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500} className={navigationMenuTriggerStyle()}>  
            
               Contact us
           

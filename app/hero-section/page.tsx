@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { Motion } from "@/components/Motion";
 const HeroSection = () => {
   return (
-    <section className="pt-32  md:px-24  px-5 ">
+    <section className="pt-32  md:px-24  px-5 " id="hero">
       <div className=" text-center">
         <Motion direction={'down'}  transition={{ delay: 0.3, duration: 0.5 }}>
         <h1
@@ -33,7 +33,8 @@ const HeroSection = () => {
         whileHover={{ scale: 1.2 }}>
           <Link
           
-            href="#"
+            href="https://play.google.com/store/apps/details?id=id.taniland.m
+            "
             className="bg-primary text-white  px-10 py-4 rounded-md md:text-lg text-sm font-bold"
           >
             Download App

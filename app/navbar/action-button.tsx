@@ -9,7 +9,7 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
   import {AlignJustify} from "lucide-react"
-  import Link from "next/link"
+  import { Link, Element } from 'react-scroll'
 import { ModeToggle } from "./toggle"
 const ActionButton = () => {
     return ( 
@@ -22,10 +22,10 @@ const ActionButton = () => {
             <SheetContent>
                 <SheetDescription>
                     <div className="flex flex-col space-y-4 items-start w-full text-lg  mt-10">
-                        <Link href="#about"> About</Link>
-                        <Link href="#product"> Product</Link>
-                        <Link href="#contact"> Contact us</Link>
-                        <Button asChild><Link href="/download">Download App</Link></Button>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-300} duration={500} >  About</Link>
+                    <Link activeClass="active" to="iot" spy={true} smooth={true} offset={-100} duration={500} >   Product</Link>
+                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500} >  Contact us</Link>
+                        <Button asChild><Link href="https://play.google.com/store/apps/details?id=id.taniland.m">Download App</Link></Button>
                         <ModeToggle/>
                     </div>
                 </SheetDescription>
@@ -34,7 +34,7 @@ const ActionButton = () => {
     </div> 
 
         <div className="hidden md:flex md:space-x-4">
-        <Button asChild><Link href="/download">Download App</Link></Button>
+        <Button asChild><Link href="https://play.google.com/store/apps/details?id=id.taniland.m">Download App</Link></Button>
         <ModeToggle/>
         </div>
 
