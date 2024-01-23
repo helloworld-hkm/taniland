@@ -21,7 +21,7 @@ const NavigationBar = () => {
     <NavigationMenu className="hidden md:flex md:space-x-4">
   <NavigationMenuList>
   <NavigationMenuItem>
-  <Link activeClass="active" legacyBehavior passHref to="about" spy={true} smooth={true} offset={-300} duration={500} className={navigationMenuTriggerStyle()}>  
+  <Link activeClass="active" to="about" spy={true} smooth={true} offset={-300} duration={500} className={navigationMenuTriggerStyle()}>  
           
               About
            
