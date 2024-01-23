@@ -27,10 +27,10 @@ const ContactSection = () => {
             Solusi Terbaik untuk Pengendalian Hama dan Monitoring Lahan
           </div>
           <div>Hubungi kami Sekarang Untuk Pemasangan!</div>
-          <div className="sm:flex-row flex-col gap-4">
-            <button className="bg-primary text-white px-6 py-3 md:w-1/2 mt-5 rounded-lg">
+          <div className="sm:flex-row flex-col gap-4 mt-8">
+            <a href="https://wa.me/6281220404221" target="_blank" className="bg-primary mt-8 text-white px-6 py-3 md:w-1/2 mt-5 rounded-lg">
               Pesan Sekarang
-            </button>
+            </a>
            
           </div>
        
