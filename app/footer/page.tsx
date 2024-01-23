@@ -25,7 +25,7 @@ const Footer = () => {
       .catch((error) => console.error('Error fetching access count:', error));
        
   
-  });
+  }, []);
 
 //   const incrementAccessCount = () => {
 //     fetch('https://my-json-server.typicode.com/helloworld-hkm/visitor/guest/1', {
