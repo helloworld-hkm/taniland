@@ -46,7 +46,7 @@ const Footer = () => {
       border-t-[1px]
       mb-2
     ">
-      <div className="flex flex-col md:flex-row justify-between items-center mt-5 mx-4 ">
+      <div className="flex flex-col md:flex-row justify-between items-center mt-5 mx-4 gap-4 ">
         <div>
           <div className="flex flex-col  cursor-pointer text-xl">
             <div>All rights reserved. @2024 by <span className="text-green-500">TaniLand</span>.</div>
@@ -57,8 +57,9 @@ const Footer = () => {
             Halaman ini diakses {item.count} kali
           </div>
         ))} */}
-        <div className="text-slate-600 dark:text-slate-300" style={{ cursor: 'pointer' }}>
-          Halaman ini diakses {accessCount} kali
+        <div className=" border border-solid border-slate-400 rounded-lg bg-gradient-to-r
+        from-blue-500 to-green-500   px-5 py-1 text-slate-200" style={{ cursor: 'pointer' }}>
+         Diakses {accessCount} kali
         </div>
       </div>
     </div>

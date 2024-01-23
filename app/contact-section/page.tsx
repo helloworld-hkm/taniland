@@ -20,9 +20,7 @@ const ContactSection = () => {
         Perangkap Hama Dan Monitoring Berbasis Internet of Things
       </div>
       <div>
-   
       </div>
-
       <div className="border-[1px] mx-auto p-10 rounded-xl flex gap-4 lg:flex-row flex-col-reverse justify-between items-center overflow-hidden">
         <div className="md:w-1/2">
           <div className="text-4xl font-bold mb-5">
