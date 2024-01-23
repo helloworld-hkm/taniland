@@ -38,12 +38,15 @@ const EmailForm: React.FC<EmailFormProps> = ({ to }) => {
           {" "}
           Bergabunglah dalam Komunitas Taniland dan Wujudkan Potensi Bersama!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-col gap-2 mb-6">
           <Link href="">
             <Image src="/images/logo-white.png" width={100} height={100} alt="Github Icon" />
           </Link>
-        
+         
         </div>
+        <Link href="https://www.instagram.com/taniland.co" target="_blank" className="bg-secondary px-10 py-4 rounded-md md:text-lg text-sm font-bold">
+            Join Our Community
+          </Link>
       </div>
       <div>
         

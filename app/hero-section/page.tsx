@@ -28,13 +28,13 @@ const HeroSection = () => {
         </Motion>
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
         <div
-        className=" flex gap-4 justify-center pt-10 items-center ">
+        className=" flex gap-2 justify-center pt-10 items-center ">
         <motion.div
         whileHover={{ scale: 1.2 }}>
           <Link
           
             href="https://play.google.com/store/apps/details?id=id.taniland.m
-            "
+            " target="_blank"
             className="bg-primary text-white  px-10 py-4 rounded-md md:text-lg text-sm font-bold"
           >
             Download App
@@ -46,6 +46,7 @@ const HeroSection = () => {
             Learn More
           </Link>
           </motion.div>
+        
         </div>
         </Motion> 
         <Motion direction={'up'}  transition={{ delay: 0.2, duration: 0.5 }}>
